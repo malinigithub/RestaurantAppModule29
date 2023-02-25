@@ -14,7 +14,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+1. First run the backend server :
+   npm install
+   npm run build
+   npm run develop
+2. Change both the public and private key for stripe in order.js and checkout.js files (2 places). If not done, will get token error
+3. run the development server:
+   npm install
+   npm run dev
 
 ```bash
 npm run dev
